@@ -1,0 +1,47 @@
+{
+  "name": "tourism",
+  "version": "1.0.0",
+  "description": "This repository currently contains the initial project structure for a tourism\r website where visitors can book a ready-made tour or plan a custom journey with\r the company's drivers and vehicles.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "test": "echo \"Tests are configured in STEP 2\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Rathnayake/Tourism.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Rathnayake/Tourism/issues"
+  },
+  "homepage": "https://github.com/M-Rathnayake/Tourism#readme",
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.119.2",
+    "framer-motion": "^14.14.0",
+    "gsap": "^3.15.1",
+    "lucide-react": "^1.77.0",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.7.0",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^7.0.2"
+  }
+}
